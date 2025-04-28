@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PFA_RDV_Medecin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c8682078ca1a792bd2b9e31338c1cbde964163b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PFA_RDV_Medecin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PFA_RDV_Medecin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

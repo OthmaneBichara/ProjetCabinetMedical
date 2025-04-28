@@ -166,3 +166,4 @@ C:\Users\othma\source\repos\PFA_RDV_Medecin\PFA_RDV_Medecin\obj\Debug\net8.0\ref
 C:\Users\othma\source\repos\PFA_RDV_Medecin\PFA_RDV_Medecin\obj\Debug\net8.0\PFA_RDV_Medecin.pdb
 C:\Users\othma\source\repos\PFA_RDV_Medecin\PFA_RDV_Medecin\obj\Debug\net8.0\PFA_RDV_Medecin.genruntimeconfig.cache
 C:\Users\othma\source\repos\PFA_RDV_Medecin\PFA_RDV_Medecin\obj\Debug\net8.0\ref\PFA_RDV_Medecin.dll
+C:\Users\othma\source\repos\PFA_RDV_Medecin\PFA_RDV_Medecin\obj\Debug\net8.0\PFA_RDV_Medecin.sourcelink.json
