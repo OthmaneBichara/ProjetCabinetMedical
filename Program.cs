@@ -5,12 +5,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular", policy =>
+    {
+        policy
+          .WithOrigins("http://localhost:4200")   // URL de ton Angular
+          .AllowAnyHeader()                       // autorise tous les headers
+          .AllowAnyMethod();                      // autorise GET, POST, PUT, DELETE…
+    });
+});
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("con")));
 
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -24,7 +35,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseCors("AllowAngular");
 app.UseAuthorization();
 
 app.MapControllerRoute(

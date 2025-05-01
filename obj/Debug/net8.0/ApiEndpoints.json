@@ -1,1 +1,274 @@
-[]
+[
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.HomeController",
+    "Method": "Privacy",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.HomeController",
+    "Method": "Error",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "Index",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "Create",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "Create",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medecin",
+        "Type": "PFA_RDV_Medecin.Models.Medecin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "Edit",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "Edit",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "medecin",
+        "Type": "PFA_RDV_Medecin.Models.Medecin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "Delete",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.MedecinController",
+    "Method": "CreateMedecin",
+    "RelativePath": "api/Medecin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medecin",
+        "Type": "PFA_RDV_Medecin.Models.Medecin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Index",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Details",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Create",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Create",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rendezVous",
+        "Type": "PFA_RDV_Medecin.Models.RendezVous",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Edit",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Edit",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "rendezVous",
+        "Type": "PFA_RDV_Medecin.Models.RendezVous",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "Delete",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFA_RDV_Medecin.Controllers.RendezVousController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "api/RendezVous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

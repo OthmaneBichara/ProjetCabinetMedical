@@ -4,6 +4,8 @@ using PFA_RDV_Medecin.Models;
 
 namespace PFA_RDV_Medecin.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class MedecinController : Controller
     {
         private readonly ApplicationDbContext _context;

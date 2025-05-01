@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PFA_RDV_Medecin.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
+
     public class RendezVousController : Controller
 
     {
